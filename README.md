@@ -4,7 +4,7 @@
 </h1>
 
 <h6 align="center">
-Additonal promise-based helpers that let you handle some of the less common problems
+Additonall promise-based helpers that let you handle some of the less common problems
 </h6>
 <p align="center">
   <a href="https://github.com/medusajs/medusa/blob/master/LICENSE">
