@@ -13,7 +13,7 @@ const removeIgnoredFiles = async (files) => {
 module.exports = {
   '*': async (files) => {
     const filesToLint = await removeIgnoredFiles(files)
-    return [`npm run fix:eslint ${filesToLint}`, 'npm run fix:prettier --']
+    return [`npm run fix:eslint ${filesToLint}`, 'npm run fix:prettier .']
   },
   '**/*.ts?(x)': [() => 'npm run lint:tsc', 'vitest related --run'],
 }
